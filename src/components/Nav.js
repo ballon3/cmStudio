@@ -173,11 +173,11 @@ class Nav extends Component {
       <Navigation>
         <div className="logo">
           <Link to="/">
-            <p>React Responsive Navigation</p>
+            <p>C.McKenna Studio </p>
             <em>
               <div className="letterhead">
-                <span className="name">kentorry</span>
-                <span className="gray">.io</span>
+                <span className="name">cmckennastudio</span>
+                <span className="gray">.com</span>
               </div>
             </em>
           </Link>
@@ -197,6 +197,12 @@ class Nav extends Component {
             </NavLink>
             <NavLink activeClassName="active" to="/contact">
               <li>contact</li>
+            </NavLink>
+            <NavLink activeClassName="active" to="/about">
+              <li>booking</li>
+            </NavLink>
+            <NavLink activeClassName="active" to="/contact">
+              <li>portfolio</li>
             </NavLink>
           </ul>
         </nav>
